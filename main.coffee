@@ -1,5 +1,4 @@
-requirejs.config
-  baseUrl: "/js"
+requirejs.config {baseUrl: "/js"}
 
 require ["Celestrium", "PhoneticAlphabet"],
 (Celestrium, PhoneticAlphabet) ->
